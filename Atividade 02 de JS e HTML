@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Prompt e Alert</title>
+    <script>
+        function lerExibir() {
+            var entrada = window.prompt("Digite o seu nome:");
+            
+            if (entrada !== null) {
+                window.alert("Seu nome é: " + entrada);
+            } else {
+                window.alert("Você não digitou o seu nome.");
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Atividade 02 de JS e HTML</h1>
+    <button onclick="lerExibir()">Clique aqui para digitar</button>
+</body>
+</html>
