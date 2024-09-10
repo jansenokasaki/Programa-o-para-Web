@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="index.js" defer></script>
+        <title>Programação Web</title>
+    </head>
+    <body>
+        <h1>Aula 08</h1>
+        <p id="parag1">Paragráfo muda de cor</p>
+
+        <button type="button" onclick="mudaCor()">Clique para mudar</button>
+    </body>
+</html>
+
+//javascript
+function mudaCor() {
+    const element=document.getElementById
+    ("parag1")
+    element.style.backgroundColor="pink"
+}
