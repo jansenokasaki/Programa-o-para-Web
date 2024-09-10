@@ -17,4 +17,13 @@ function mudaCor() {
     const element=document.getElementById
     ("parag1")
     element.style.backgroundColor="pink"
+
+}
+//função que recebe como parametros o id do elemento e a cor
+function mudarCor(id, cor) {
+    const element=document.getElementById(id);
+    element.style.backgroundColor=cor;
+    for(;;) {
+
+    }
 }
